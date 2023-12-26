@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION</title>
+    <title>Patan Multiple Campus</title>
+    <link rel="icon" type="icon" href="logo.jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <a href="http://127.0.0.1:5500/web/assignment10.html">
+            <img src="logo.jpeg" alt="Campus logo" width="50px" height="59px">
+        </a>
+            <h2><header>Patan Multiple Campus</header>
+            <sub-header>Patandhoka,Lalitpur</sub-header></h2>
+    </div>
+
+        <h1>Student Registration Form</h1>
+        <form >
+            <div class="container">
+                <div class="item">
+            <label>Name:</label>
+            <input type="text"name="Name:"placeholder="Enter the full name" required >
+            <br>
+            <label>Email:</label>
+            <input type="text" name="Email" placeholder="something@gmail.com" required>
+             <br>
+            <label >Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="Other">Other
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="dob" value="2000-01-01" min="1900-01-01" max="2020-12-31" required><br>
+          
+            <label>Contact Number:</label>
+            <input type="tel" name="Contact number"required> <br>
+            <label>Address:</label>
+            <input type="text" name="Address" placeholder="Enter Address"><br>
+            <label >Department:</label>
+            <select name="Department" required>
+                <option disabled selected value>Select Your department</option>
+                <option >Business</option>
+                <option >Computer-science</option>
+                <option>Sociology</option>
+                <option >English</option>
+                <option >Marketing</option>
+                <option >Mathematics</option>
+            </select><br>
+            <label>Upload Documents:</label>
+            <input type="file" name="Documents"><br>
+            <input type="reset" name="reset" value="reset">
+            <input type="submit" name="submit" value="submit">
+        </div>
+    </div>
+        </form>
+    </body>
